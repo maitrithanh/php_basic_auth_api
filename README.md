@@ -24,3 +24,9 @@ php -S localhost:8000
 ``` cmd
 php -S localhost:8000
 ```
+
+## API TEST
+```
+    http://localhost:8000/api/register.php
+    http://localhost:8000/api/login.php
+```
