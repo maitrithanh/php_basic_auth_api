@@ -1,4 +1,7 @@
-// CREATE DATABASE
+# CREATE DATABASE
+
+
+``` sql
 CREATE DATABASE auth_php
     DEFAULT CHARACTER SET = 'utf8mb4';
 
@@ -11,6 +14,12 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )
+```
 
-// RUN PROJECT
+
+# RUN PROJECT
 php -S localhost:8000
+
+``` cmd
+php -S localhost:8000
+```
