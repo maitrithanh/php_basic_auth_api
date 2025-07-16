@@ -1,4 +1,5 @@
-# CREATE DATABASE
+# PHP BASE PROJECT AUTH API EXAMPLE
+## CREATE DATABASE
 
 
 ``` sql
@@ -17,7 +18,7 @@ CREATE TABLE users (
 ```
 
 
-# RUN PROJECT
+## RUN PROJECT
 php -S localhost:8000
 
 ``` cmd
